@@ -1,0 +1,48 @@
+.card-container{
+    height: auto;
+    width: max-content;
+    border: 1px solid gray;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    margin: 5rem;
+}
+
+img{
+    height: 190px;
+    width: 300px;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1.85rem;
+}
+.saloon-name{
+    max-width: 80%;
+    padding: 1.75rem;
+    font-size: 1.6rem;
+    color: white;
+}
+.address{
+    padding: 0rem 0rem 1.5rem 1.75rem;
+    font-size: 1.4rem;
+    color: white;
+    
+}
+.genderinfo{
+    padding: 0.4rem 1rem 0rem 0rem;
+}
+.second {
+    display: flex;
+    padding: 1rem 1.25rem;
+    justify-content: space-between;
+    background-color: white;
+    font-size: 1.25rem;
+    /* box-shadow: 0px 1px 10px 2px rgb(214, 212, 212); */
+}
+
+.third{
+    box-shadow: 0px 3px 3px rgb(214, 212, 212) inset;
+     
+}

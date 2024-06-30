@@ -1,0 +1,65 @@
+.filterdiv{
+    margin: 5rem 5rem 0 5rem;
+
+}
+.filtertable{
+    border-collapse: collapse; 
+    width: 100%;
+    /* border: white solid 1px; */
+    color:white;
+    /* margin: 5rem 5rem 0 5rem; */
+}
+.filtertable .filtergender{
+    font-size: 1.5rem;
+    width: 15%;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.filtertable .filtergender label{
+    margin: 0 2rem 0 0.5rem;
+}
+
+.filtertable .filtersearchdiv{
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+    justify-content: end;
+}
+.filtertable .filtersearch{
+    /* display: ruby; */
+    width: 25%;
+    padding: 1rem;
+}
+.filtertable .filtersearch input{
+    width: 60%;
+    font-size: 1.4rem;
+    padding: 0;
+    padding-left: 1rem;
+}
+.filtertable .filtersearch .search-button{
+    border: 2px solid wheat;
+    margin-left: 0.6rem;
+    border-radius: 10%;
+}
+.filtertable .filteraddress{    
+    width: 20%;
+    padding: 1rem;
+
+}.filtersalonbystate{
+    font-size: 1.4rem;
+    width: 30%;
+    margin-left: 14rem;
+}.filtersalonbycity{
+    font-size: 1.4rem;
+    width: 30%;
+    margin-left: 1rem;
+}
+.filtertable .filteraddress label{
+    margin: 0 0.5rem 0 2rem;
+}.nullsalondata{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 38rem;
+    align-items: center;
+}

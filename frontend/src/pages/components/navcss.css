@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Register your-self griding  */
+.reg-wrapper {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.reg-your-self {
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: solid rgb(63, 63, 63) 1px;
+  border-radius: 5px;
+  margin: 1px 0px 1px 0px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reg-cust { 
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: solid rgb(63, 63, 63) 1px;
+  border-radius: 5px;
+  filter: blur(#3b5998);
+}
+
+/* Home page register in inner div styling */
+
+.reg-your-self h1{
+  color: #0dd;
+  margin: 1rem;
+}
+
+.reg-your-self .head-salon-info{
+  color: #7c8baa;
+  font-size: large;
+  font-size: bold;
+  padding: 1rem;
+}
+.reg-your-self p{
+  color: rgb(93, 101, 128);
+  font-size: small;
+  padding: 0 1rem 0 1rem;
+}
+#join-sbutton{
+  color: rgba(255,255,255,1);
+	background: none;
+	padding: 1em 5em;
+	font-size: 1.6em;
+	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+	margin: 1em;
+  box-shadow: inset 0 0 1em rgba(0,170,170,0.5), 0 0 1em rgba(0,170,170,0.5);
+  border: #0dd solid 2px;
+}
+
+#join-sbutton:hover {
+	background-color: rgb(55, 85, 85);
+  box-shadow: inset 0 0 0 rgba(0,170,170,0.5), 0 0 1.5em rgba(0,170,170,0.7);
+}
+/* navbar style start  */
+
+.main-nav {
+  width: 100%;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: rgba(50, 50, 93, 0.25);
+}
+.welcome-name{
+  color: white;
+}
+.logo {
+  display: grid;
+  /* background-color: #3b5998; */
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-link {
+  grid-column: 3/4;
+}
+
+.menu-ul {
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-Join-us{
+  font-size: larger;
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-Join-us-link{
+  color: white;
+  cursor: pointer;
+}
+
+/* ----------- Grid part ends ----------------- */
+
+.logo h2 {
+  font-size: 2.5rem; 
+  font-weight: 400;
+  text-transform: uppercase;
+  /* background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+  -webkit-text-fill-color: transparent; */
+  color: aliceblue;
+}
+
+.logo h2 span {
+  font-size: 3.5rem;
+}
+
+.menu-ul li {
+  font-size: 1.8rem;
+}
+
+.link-styles {
+  text-transform: capitalize;
+  color: white;
+  transition: 0.5s;
+}
+.menu-ul li:hover > .link-styles {
+  transform-origin: left;
+  color: rgb(80, 80, 255);
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+
+/* hero section   */
+
+.hero-section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-section p {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.hero-section h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* responsive css style  */
+@media (max-width: 1080px) {
+  .main-nav {
+    height: 8rem;
+    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+  }
+
+  .logo,
+  .menu-ul,
+  .menu-Join-us h2 {
+    height: 8rem;
+  }
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+  .main-nav {
+    height: 7rem;
+    grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+  }
+
+  .menu-link {
+    display: none;
+  }
+
+  .logo,
+  .menu-Join-us h2 {
+    height: 7rem;
+  }
+
+@media (max-width: 798px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
+  }
+
+  .logo,
+  .menu-Join-us h2 {
+    height: 6rem;
+  }
+
+@media (max-width: 520px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+  }
+
+  .logo,
+  .social-media ul {
+    height: 6rem;
+  }
+
+  .logo h2 {
+    font-size: 2rem;
+  }
+
+
+  /* hero section  */
+
+  .hero-section h1 {
+    font-size: 3.8rem;
+  }
+}}}

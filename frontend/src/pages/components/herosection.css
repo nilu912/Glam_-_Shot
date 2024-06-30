@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    background-color: #393939;
+    width: auto;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.login-circle {
+    height: 69px;
+    width: 69px;
+    background-color: #9FC6FF;
+    border-radius: 50%;
+}
+
+.body-div {
+    display: flex;
+    background-color: #393939;
+    width: auto;
+    height: 100vh;
+    padding-left: 90px;
+
+}
+.write
+{
+    font-size: 6rem;
+    color: white;
+}
+.highlight-text
+{
+    color: #3F8BFD;
+}
+.highlight-text1
+{
+    color: #9FC6FF;
+}
+.foot
+{
+    background-color: #9FC6FF;
+    height: 247px;
+    width: auto;
+}
+.primary-book
+{
+    background-color: #9FC6FF;
+    border-radius: 15px;
+    border: transparent;
+    color: white;
+    width: 30rem;
+    height: 7rem;
+    font-size: 2rem;
+    padding: 0 2rem 0;
+}
+.primary-book:hover
+{
+    color: #9FC6FF;
+    background-color: transparent;
+    border: 4px solid #9FC6FF;
+}
+.sec-book
+{
+    background-color: transparent;
+    border-radius: 15px;
+    border: 4px solid #9FC6FF;
+    color: white;
+    width: 30rem;
+    height: 7rem;
+    font-size: 2rem;
+    padding: 0 2rem 0;
+    margin: 15px;
+}
+.sec-book:hover
+{
+    color: white;
+    background-color: #9FC6FF;
+    border: 4px solid white;
+}
+.button-div
+{
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.foot
+{
+ display: flex;
+ 
+ padding-left: 20px;
+ align-items: center;
+ 
+ 
+}
+.symbol-div
+{
+    margin: 350px;
+}
+.symbol
+{
+    
+    background-color: #3F8BFD;
+    height: 64px;
+    width: 64px;
+    border-radius: 6px;
+}
+.symbol-text
+{
+    font-size: 24px;
+}
+.model-img
+{
+    height: 60rem;
+    width: 55rem;
+    position: absolute;
+    top: 10;
+    right: 0;
+    bottom: 0;     
+}
+.image-div
+{
+    height: 10rem;
+    width: 7rem;
+    display: flex;
+    margin-left: 350px;    
+    position: relative;
+    
+}
+.write-div
+{
+    display: flex;
+    justify-content: space-between;
+    
+}

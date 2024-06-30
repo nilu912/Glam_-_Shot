@@ -1,0 +1,30 @@
+.mainprofdiv{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    margin: 2rem;
+    width: 96%;
+    padding: 4rem;
+}.edpinput input{
+    width: 20rem;
+    font-size:1.4rem;
+    padding-left:1rem;   
+}.first-div-for-prf-edit{
+    border: 1px solid black;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+.second-div-for-prf-edit{
+    border: 1px solid black;
+    padding: 2rem;
+    font-size:1.4rem;
+}.second-inner-div-for-prf-edit{
+    padding-top: 1rem;
+    border-top: 1px solid black;
+}
+.third-div-for-prf-edit{
+
+    border: 1px solid black;
+    padding: 2rem;
+    font-size:1.4rem;
+}
